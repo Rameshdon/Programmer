@@ -15,7 +15,6 @@ for(ind=0;ind<num;ind++)
     else if((no%2!=0)&&(ind%2==0))
     printf("%d",no);
 }
-    printf("\b");
     return 0;
 }    
     
