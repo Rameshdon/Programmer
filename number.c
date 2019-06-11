@@ -7,9 +7,7 @@ int main()
 	printf("Zero");
 	else if(num>0)
 	printf("Positive");
-	elseif(num<0)
-	printf("Negative");
 	else
-	printf("Invalid");
+	printf("Negative");
 	return 0;
 }
