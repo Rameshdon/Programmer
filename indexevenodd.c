@@ -11,9 +11,9 @@ for(ind=0;ind<num;ind++)
     scanf("%d",&a[ind]);
     no=a[ind];
     if((no%2==0)&&(ind%2!=0))
-    printf("%d",no);
+    printf("%d ",no);
     else if((no%2!=0)&&(ind%2==0))
-    printf("%d",no);
+    printf("%d ",no);
 }
     return 0;
 }    
